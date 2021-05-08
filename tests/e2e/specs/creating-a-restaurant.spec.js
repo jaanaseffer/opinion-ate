@@ -33,4 +33,5 @@ describe('Creating a Restaurant', () => {
 
     cy.contains(restaurantName);
   });
+  
 });
