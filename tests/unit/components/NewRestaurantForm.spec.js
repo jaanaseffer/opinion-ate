@@ -49,7 +49,7 @@ describe('NewRestaurantForm', () => {
         .find('[data-testid="new-restaurant-submit-button"]')
         .trigger('click');
     });
-  
+
     it('dispatches the create action', () => {
       expect(restaurantsModule.actions.create).toHaveBeenCalledWith(
         expect.anything(),
